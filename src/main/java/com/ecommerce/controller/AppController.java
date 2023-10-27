@@ -23,5 +23,7 @@ public class AppController implements IAppController {
   public void printAuthMenu() {
     welcomePage.printAuthMenu();
   }
-
+  public void checkComit() {
+    welcomePage.printAuthMenu();
+  }
 }
