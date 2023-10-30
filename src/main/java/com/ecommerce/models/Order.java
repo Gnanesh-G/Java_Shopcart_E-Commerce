@@ -5,17 +5,24 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class Order {
-    private Timestamp id;
+    private int id;
     private Date date;
-    private User user;
     private ArrayList<Cart> cart;
 
-    public Timestamp getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Timestamp id) {
+    public void setId(int id) {
         this.id = id;
+    }
+
+    public ArrayList<Cart> getCart() {
+        return cart;
+    }
+
+    public void setCart(ArrayList<Cart> cart) {
+        this.cart = cart;
     }
 
     public Date getDate() {
@@ -26,19 +33,11 @@ public class Order {
         this.date = date;
     }
 
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
-
-    public ArrayList<Cart> getCart() {
+    public ArrayList<Cart> getCartProducts() {
         return cart;
     }
 
-    public void setCart(ArrayList<Cart> cart) {
+    public void setCartProducts(ArrayList<Cart> cart) {
         this.cart = cart;
     }
 }

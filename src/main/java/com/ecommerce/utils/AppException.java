@@ -1,8 +1,7 @@
-package com.ecommerce.Utils;
+package com.ecommerce.utils;
 
 public class AppException extends Exception {
-
-    public  AppException(String message){
+    public AppException(String message) {
         super(message);
     }
 }

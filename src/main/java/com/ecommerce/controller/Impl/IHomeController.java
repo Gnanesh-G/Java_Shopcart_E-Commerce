@@ -1,5 +1,5 @@
-package com.ecommerce.controller.Impl;
+package com.ecommerce.controller.impl;
 
-public interface IHomeController  {
-    void printMenu();
+public interface IHomeController {
+    void printList();
 }

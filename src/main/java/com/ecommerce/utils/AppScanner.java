@@ -1,4 +1,4 @@
-package com.ecommerce.Utils;
+package com.ecommerce.utils;
 
 import java.util.Scanner;
 
@@ -10,5 +10,4 @@ public class AppScanner {
             scanner = new Scanner(System.in);
         return scanner;
     }
-
 }

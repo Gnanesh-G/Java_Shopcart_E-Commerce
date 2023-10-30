@@ -4,24 +4,15 @@ import java.sql.Timestamp;
 import java.util.ArrayList;
 
 public class Cart {
-    private Timestamp id;
-    private  User user;
+    private int id;
     private ArrayList<CartProduct> cartProducts;
 
-    public Timestamp getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Timestamp id) {
+    public void setId(int id) {
         this.id = id;
-    }
-
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
     }
 
     public ArrayList<CartProduct> getCartProducts() {

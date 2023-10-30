@@ -3,14 +3,19 @@ package com.ecommerce.models;
 import java.sql.Timestamp;
 
 public class Category {
-    private Timestamp id;
+    private int id;
     private String categoryName;
 
-    public Timestamp getId() {
+    public Category(int id, String categoryName) {
+        this.id = id;
+        this.categoryName = categoryName;
+    }
+
+    public int getId() {
         return id;
     }
 
-    public void setId(Timestamp id) {
+    public void setId(int id) {
         this.id = id;
     }
 

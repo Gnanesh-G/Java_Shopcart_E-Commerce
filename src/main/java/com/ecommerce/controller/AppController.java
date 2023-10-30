@@ -1,29 +1,22 @@
 package com.ecommerce.controller;
 
-import com.ecommerce.controller.Impl.IAppController;
+import com.ecommerce.controller.impl.IAppController;
 import com.ecommerce.view.WelcomePage;
 
 public class AppController implements IAppController {
-  private final WelcomePage welcomePage;
-  private final AuthController authController;
 
-  public AppController() {
-    welcomePage = new WelcomePage();
-    authController = new AuthController(this);
-  }
+    private final WelcomePage welcomePage;
+    private final AuthController authController;
 
-  @Override
-  public void init() {
-    welcomePage.welcomeMessage();
-    welcomePage.authMenu();
-    welcomePage.authComment();
+    public AppController() {
+        welcomePage = new WelcomePage();
+        authController = new AuthController();
+    }
 
-    authController.authMenu();
-  }
-  public void printAuthMenu() {
-    welcomePage.printAuthMenu();
-  }
-  public void checkComit() {
-    welcomePage.printAuthMenu();
-  }
+    @Override
+    public void init() {
+        welcomePage.welcome();
+        authController.authList();
+    }
+
 }

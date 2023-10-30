@@ -1,8 +1,14 @@
-package com.ecommerce.controller.Impl;
+package com.ecommerce.controller.impl;
 
 public interface IAuthController {
-    void authMenu();
+
+    void authList();
+
     void login();
 
     void register();
+
+
+    void exit();
+
 }
