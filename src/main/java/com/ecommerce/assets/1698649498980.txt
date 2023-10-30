@@ -1,0 +1,3 @@
+Your Order Products are:
+Shoe x 2 = Rs. 3000.0
+Total - ₹ 3000.0

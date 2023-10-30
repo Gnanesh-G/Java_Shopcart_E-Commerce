@@ -1,0 +1,4 @@
+Your Order Products are:
+Smart Watch x 1 = Rs. 2000.0
+Lava Note 10 x 1 = Rs. 1000.0
+Total - ₹ 3000.0

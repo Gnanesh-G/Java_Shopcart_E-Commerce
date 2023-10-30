@@ -1,0 +1,4 @@
+Your Order Products are:
+Lava Note 10 x 2 = Rs. 2000.0
+Watch x 2 = Rs. 3000.0
+Total - ₹ 5000.0
