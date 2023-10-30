@@ -20,7 +20,7 @@ Title: JAVA-SHOPCART
             *This README provides an overview of the application and instructions on how to set it up and use it.
 
    FEATURES:
-            *User registration and authentication.
+            *User registration and authentication.vfgnh
             *User can able to :
                  ->View list of products.
                  ->View products.
