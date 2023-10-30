@@ -6,7 +6,7 @@ Title: JAVA-SHOPCART
            ->Introduction
            ->Features
            ->Technologies Used
-           ->IDE Used
+           ->IDE Usedddd
            ->Login Credentials
            ->Challenges Faced
            ->Requirements
